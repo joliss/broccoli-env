@@ -3,6 +3,12 @@
 Get the environment (development or production) from the BROCCOLI_ENV
 environment variable.
 
+## Installation
+
+```bash
+npm install --save broccoli-env
+```
+
 ## Usage
 
 ```js

@@ -6,7 +6,7 @@ environment variable.
 ## Installation
 
 ```bash
-npm install --save broccoli-env
+npm install --save-dev broccoli-env
 ```
 
 ## Usage

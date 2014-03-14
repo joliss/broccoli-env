@@ -13,5 +13,5 @@ npm install --save-dev broccoli-env
 
 ```js
 var env = require('broccoli-env').getEnv();
-console.log(env) // => 'development' or 'production'
+console.log(env) // => 'development' or 'production' or 'test'
 ```

@@ -1,6 +1,6 @@
 {
   "name": "broccoli-env",
-  "description": "Get the environment (production, development) from BROCCOLI_ENV",
+  "description": "Get the environment from BROCCOLI_ENV",
   "version": "0.0.1",
   "author": "Jo Liss <joliss42@gmail.com>",
   "main": "index.js",
@@ -13,6 +13,11 @@
     "type": "git",
     "url": "https://github.com/joliss/broccoli-env"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit tests"
   }
 }
